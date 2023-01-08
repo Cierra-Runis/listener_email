@@ -95,17 +95,17 @@ def get_copyright_by_lang(lang: str) -> str:
     if lang == 'zh-CN':
         return '''
             <div>
-              Copyright ©2022-{} by
-              <a href="https://github.com/Cierra-Runis">Cierra_Runis</a>
-              保留所有权利
+                Copyright ©2022-{} by
+                <a href="https://github.com/Cierra-Runis">Cierra_Runis</a>
+                保留所有权利
             </div>
             '''
     else:
         return '''
             <div>
-              Copyright ©2022-{} by
-              <a href="https://github.com/Cierra-Runis">Cierra_Runis</a>
-              All rights reserved
+                Copyright ©2022-{} by
+                <a href="https://github.com/Cierra-Runis">Cierra_Runis</a>
+                All rights reserved
             </div>
             '''
 
@@ -123,6 +123,7 @@ def sent_email(
     `subject` Email subject\n
     `name` Sender name\n
     `custom_html` Custom html\n
+    `lang` Language of email chose in `'zh-CN'`, `'jp'`, `'en'` \n
     '''
 
     for receiver in email.receivers:

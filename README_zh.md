@@ -1,6 +1,6 @@
 <div align="center">
-  <img id="repository_template" width="96" alt="repository_template" src="repository_icon/icon.svg">
-  <p>『 repository_template - 仓库模版！』</p>
+  <img id="listener_email" width="96" alt="listener_email" src="repository_icon/icon.svg">
+  <p>『 listener_email - 监听器邮件提醒！』</p>
   <a href='README.md'>English Readme</a>
 </div>
 
@@ -20,11 +20,16 @@
 
 # 📚 简介
 
-用于快速构建仓库 `README` 文件
+通过邮件来提醒你监听器的变化！
 
 # 📦 使用方式
 
-复制粘贴并修改 `README` 文件与 `repository_icon` 文件夹内图片
+查看示例 [example.py](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example.py) 以获得更多信息
+
+- 使用 `pip install listener_email` 安装 `listener_email`
+- 然后添加 `from listener_email import sent_email, ListenerEmail` 以导入包
+- 添加 `email.json` 文件如 [example.json](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example_json.json) 至项目
+- 最后使用 `sent_email()` 来发送你的邮件
 
 # ⏳ 进度
 
@@ -32,15 +37,16 @@
 
 # 📌 注意事项
 
-- 记得修改起始图片的 `id` 与 `alt` 属性
-- 记得修改贡献者里的仓库名
+- `custom_html` 应该尽可能简洁
 
 # 🧑‍💻 贡献者
 
-<a href="https://github.com/Cierra-Runis/repository_template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Cierra-Runis/repository_template" />
+<a href="https://github.com/Cierra-Runis/listener_email/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Cierra-Runis/listener_email" />
 </a>
 
 # 🔦 声明
 
-主要还是个人用
+[![License](https://img.shields.io/github/license/Cierra-Runis/listener_email)](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE)
+
+该项目采用 `GNU GPL v3.0` 许可协议，查看 [LICENSE](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE) 以获得更多信息

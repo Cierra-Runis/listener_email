@@ -5,7 +5,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "listener_email"
-version = "0.0.1"
+version = "0.0.2"
 description = "Listener Email - Remind you of changes in your listener through email!"
 readme = "README.md"
 authors = ["Cierra_Runis <byrdsaron@gmail.com>"]

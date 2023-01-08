@@ -1,0 +1,10 @@
+{
+    "mail_host": "smtp.qq.com",
+    "mail_user": "********",
+    "mail_pass": "********",
+    "sender": "********@qq.com",
+    "receivers": [
+        "********@gmail.com",
+        "********@gmail.com"
+    ]
+}

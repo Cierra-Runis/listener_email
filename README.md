@@ -24,16 +24,20 @@ Remind you of changes in your listener through email!
 
 # 📦 How to use
 
-Copy, paste then revise `README` file and the image in `repository_icon` folder
+See example in [example.py](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example.py) for more information
+
+- install `listener_email` by `pip install listener_email`
+- then import it by adding `from listener_email import sent_email, ListenerEmail`
+- add configured `email.json` file such as [example.json](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example_json.json) at repository
+- at last use `sent_email()` to sent your email
 
 # ⏳ Rate-of-progress
 
 Done, but it will revise if necessary
 
-# 📌 Precautions
+# 📌 Cautions
 
-- Remember to revise the `id` and `alt` attribute in `<img>`
-- Remember to revise the repository name in Contributor
+- `custom_html` should be as simple as possible
 
 # 🧑‍💻 Contributor
 
@@ -43,4 +47,6 @@ Done, but it will revise if necessary
 
 # 🔦 Declaration
 
-Mainly for personal use
+[![License](https://img.shields.io/github/license/Cierra-Runis/listener_email)](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE)
+
+This project is licensed under the terms of the `GNU GPL v3.0` license. See [LICENSE](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE) for more details
