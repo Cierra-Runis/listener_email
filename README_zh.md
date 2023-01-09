@@ -1,7 +1,7 @@
 <div align="center">
-  <img id="listener_email" width="96" alt="listener_email" src="repository_icon/icon.svg">
+  <img id="listener_email" width="96" alt="listener_email" src="https://raw.githubusercontent.com/Cierra-Runis/listener_email/master/repository_icon/icon.svg">
   <p>『 listener_email - 监听器邮件提醒！』</p>
-  <a href='README.md'>English Readme</a>
+  <a href='https://github.com/Cierra-Runis/listener_email/blob/master/README_zh.md'>English Readme</a>
 </div>
 
 [📚 简介](#-简介)
@@ -24,11 +24,11 @@
 
 # 📦 使用方式
 
-查看示例 [example.py](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example.py) 以获得更多信息
+查看示例 [example.py](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example_email.json) 以获得更多信息
 
 - 使用 `pip install listener_email` 安装 `listener_email`
 - 然后添加 `from listener_email import sent_email, ListenerEmail` 以导入包
-- 添加 `email.json` 文件如 [example.json](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example_json.json) 至项目
+- 添加 `email.json` 文件如 [example_email.json](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example_email.json) 至项目
 - 最后使用 `sent_email()` 来发送你的邮件
 
 # ⏳ 进度
