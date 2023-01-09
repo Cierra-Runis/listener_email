@@ -24,7 +24,7 @@
 
 # 📦 使用方式
 
-查看示例 [example.py](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example_email.json) 以获得更多信息
+查看示例 [example.py](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example.py) 以获得更多信息
 
 - 使用 `pip install listener_email` 安装 `listener_email`
 - 然后添加 `from listener_email import sent_email, ListenerEmail` 以导入包

@@ -24,7 +24,7 @@ Remind you of changes in your listener through email!
 
 # 📦 How to use
 
-See example in [example.py](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example_email.json) for more information
+See example in [example.py](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example.py) for more information
 
 - install `listener_email` by `pip install listener_email`
 - then import it by adding `from listener_email import sent_email, ListenerEmail`
