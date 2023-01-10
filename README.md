@@ -4,7 +4,11 @@
   <a href='https://github.com/Cierra-Runis/listener_email/blob/master/README_zh.md'>中文 Readme</a>
 </div>
 
+`This README file latest update: 2023-01-10 21:56:23`
+
 [📚 Introduction](#-Introduction)
+
+[📸 Screenshots](#-Screenshots)
 
 [📦 How to use](#-How-to-use)
 
@@ -22,6 +26,10 @@
 
 Remind you of changes in your listener through email!
 
+# 📸 Screenshots
+
+![screenshots_1](https://raw.githubusercontent.com/Cierra-Runis/listener_email/master/img/screenshots_zh_1.png)
+
 # 📦 How to use
 
 See example in [example.py](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example.py) for more information
@@ -31,7 +39,7 @@ See example in [example.py](https://github.com/Cierra-Runis/listener_email/blob/
 - add configured `email.json` file such as [example_email.json](https://github.com/Cierra-Runis/listener_email/blob/master/src/listener_email/example_email.json) at repository
 - at last use `sent_email()` to sent your email
 
-# ⏳ Rate-of-progress
+# ⏳ Rate of progress
 
 Done, but it will revise if necessary
 
@@ -49,4 +57,4 @@ Done, but it will revise if necessary
 
 [![License](https://img.shields.io/github/license/Cierra-Runis/listener_email)](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE)
 
-This project is licensed under the terms of the `GNU GPL v3.0` license. See [LICENSE](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE) for more details
+This project is licensed under the terms of the `MIT` license. See [LICENSE](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE) for more details

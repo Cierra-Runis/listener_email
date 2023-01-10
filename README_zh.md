@@ -4,7 +4,11 @@
   <a href='https://github.com/Cierra-Runis/listener_email/blob/master/README_zh.md'>English Readme</a>
 </div>
 
+`本 README 文件最后更新于：2023-01-10 21:56:23`
+
 [📚 简介](#-简介)
+
+[📸 示例](#-示例)
 
 [📦 使用方式](#-使用方式)
 
@@ -21,6 +25,10 @@
 # 📚 简介
 
 通过邮件来提醒你监听器的变化！
+
+# 📸 示例
+
+![screenshots_1](https://raw.githubusercontent.com/Cierra-Runis/listener_email/master/img/screenshots_1.png)
 
 # 📦 使用方式
 
@@ -49,4 +57,4 @@
 
 [![License](https://img.shields.io/github/license/Cierra-Runis/listener_email)](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE)
 
-该项目采用 `GNU GPL v3.0` 许可协议，查看 [LICENSE](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE) 以获得更多信息
+该项目采用 `MIT` 许可协议，查看 [LICENSE](https://github.com/Cierra-Runis/listener_email/blob/master/LICENSE) 以获得更多信息
