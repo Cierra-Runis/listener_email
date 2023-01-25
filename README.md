@@ -14,7 +14,7 @@
 
 [⏳ Rate of progress](#-Rate-of-progress)
 
-[📌 Precautions](#-Precautions)
+[📌 Cautions](#-Cautions)
 
 [🧑‍💻 Contributor](#-Contributor)
 
